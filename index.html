@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where In The World</title>
+    <script src="https://kit.fontawesome.com/4710d3dd32.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="content-container">
+            <h3 class="heading">Where In The World</h3>
+            <div class="mode">
+                <i class="fa-regular fa-moon" id="toggle-theme"></i>
+                <p>Dark Mode</p>
+            </div>
+        </div>
+    </header>
+    <section class="search-section">
+        <div class="content-container">
+            <div class="search-container">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" name="country" placeholder="Search For A Country">
+            </div>
+            <div class="dropdown">
+                <select id="filter" name="filter">
+                    <option value="" disabled selected>Filter by Region</option>
+                </select>
+            </div>
+        </div>
+    </section>
+    <div id="loader" class="loader">Loading...</div>
+    <section class="card-container">
+        <div class="content-container">
+        </div>
+    </section>
+
+    <script src="home.js"></script>
+</body>
+</html>
