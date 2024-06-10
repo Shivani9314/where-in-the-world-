@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Where in the World?</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/4710d3dd32.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?background-color: var(--element-color);family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="content-container">
+            <h3 class="heading">Where In The World</h3>
+            <div class="mode">
+                <i class="fa-regular fa-moon" id="toggle-theme"></i>
+                <p>Dark Mode</p>
+            </div>
+        </div>
+    </header>
+
+    <section class="back">
+        <div class="content-container">
+            <a href="index.html">
+                <button class="back-button"><i class="fa-solid fa-arrow-left"></i><span>Back</span></button>
+            </a>
+        </div>
+    </section>
+
+    <section class="country-detail-section">
+        <div class="content-container">
+            <img id="flag" src="https://flagcdn.com/w320/ao.png" alt="Flag is not available">
+            <div class="content">
+                <h2 class="name" id="country-name">Angola</h2>
+                <div class="country-details">
+                    <div class="column">
+                        <p><span>Native Name:</span> <span id="native-name"> Kiribati</span></p>
+                        <p><span>Population:</span> <span id="population"> Kiribati</span></p>
+                        <p><span>Region:</span> <span id="region"> Kiribati</span></p>
+                        <p><span>Sub-Region:</span> <span id="sub-region"> Kiribati</span></p>
+                        <p><span>Capital:</span> <span id="capital"> Kiribati</span></p>
+                    </div>
+                    <div class="column">
+                        <p><span>Domain:</span> <span id="domain"> Kiribati</span></p>
+                        <p><span>Currencies:</span> <span id="currency"> Kiribati</span></p>
+                        <p><span>Languages:</span> <span id="language"> Kiribati</span></p>
+                    </div>
+                    <div class="border-countries">
+                        <h4>Border Countries : </h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="loader" style="display:none;">Loading...</div>
+    <script src="country.js"></script>
+</body>
+</html>
